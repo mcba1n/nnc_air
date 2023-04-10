@@ -50,7 +50,7 @@ The following is a step-by-step guide for running the scripts `root/air_sim/kern
 The script `root/air_sim/kernel.cu` is a so-called CUDA kernel that can only run on an NVIDIA GPU with CUDA installed.
 
 1. Install CUDA (e.g., CUDA Version 11.7).
-2. Ensure that the `root` directory is correctly specified within the script for each of the aforementioned CSV files.
+2. Ensure that the `root` directory is correctly specified within the script.
 3. Run the commands:
 ```
 cd air_sim
