@@ -24,7 +24,7 @@ By default, the intervals are chosen to be those specified in [[1]](#1) using an
 Note that any change in channel parameters or simulation parameters must be updated from within the script.
 
 ## `gbaa_sim`: Optimising the Markov source
-The Markov source of the aforementioned NNC can be heuristically-optimised using GBAA on an NNC that has been synchronised, which is a finite-state channel (FSC). Specifically, the synchronised NNC is a faded ISI channel, with fading according to `P_K` (known at the receiver), and AWGN noise according to `sigma`. 
+The Markov source of the aforementioned NNC can be heuristically-optimised using GBAA on an NNC that has been synchronised, which is a finite-state channel (FSC). Specifically, the synchronised NNC is a faded ISI channel, with fading according to `P_K` (fading channel-state information known at the receiver), and AWGN noise according to `sigma`. 
 
 ### Choosing the model parameters
 The parameters `f` and `A` are specified using a `.mat` file (e.g., `root/gbaa_sim/scrappie_graph.mat`). The duration distribution `P_K` and noise level `sigma` are specified in the `root/gbaa_sim/gbaa_nnc_fading.m` script.
