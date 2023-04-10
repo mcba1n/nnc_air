@@ -7,6 +7,8 @@ This package is able to reproduce the results in [[1]](#1), and additionally the
 ### Choosing the model parameters
 The NNC is specified by the channel mapping `f`, the adjacency matrix `A`, the Gaussian noise level `sigma`, and the duration distribution `P_K`. In this package, we choose `f` and `P_K` using CSV files in the directory `root/air_sim/name_of_model`. The adjacency matrix is specified by the Markov distribution `P`, which is also chosen using a CSV file in the same directory. The noise level `sigma` is chosen as a range of values in the `root/air_sim/kernel.cu` script, which we detail in the next section.
 
+> To estimate information rates of an ISI channel with AWGN, make the contents of `P_K.csv` equal to `1`. Alternatively, see the later section on GBAA.
+
 ### Choosing the simulation parameters
 The simulation parameters in the `root/air_sim/kernel.cu` script are:
 - Block length `m`.
@@ -42,7 +44,7 @@ If the information rates in consecutive iterations differ less than `eps`, then 
 ## Running
 The following is a step-by-step guide for running the scripts `root/air_sim/kernel.cu` and `root/gbaa_sim/gbaa_nnc_fading.m`. When using complex models in the NNC, such as the nanopore in `air_sim/nanopore_model/`, we recommend running these scripts on a cluster. Hence, the following guides are based on a Linux environment.
 
-For a cluster using the Slurm workload manager, run the job scripts `air_sim.sh` and `gbaa_sim.sh` using `sbatch`. Otherwise, follow the guides below.
+> For a cluster using the Slurm workload manager, run the job scripts `air_sim.sh` and `gbaa_sim.sh` using `sbatch`. Otherwise, follow the guides below.
 
 ### air_sim
 The script `root/air_sim/kernel.cu` is a so-called CUDA kernel that can only run on an NVIDIA GPU with CUDA installed.
