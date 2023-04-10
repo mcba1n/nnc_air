@@ -25,7 +25,7 @@ Note that any change in channel parameters or simulation parameters must be upda
 The Markov source of the aforementioned NNC can be heuristically-optimised using GBAA on an NNC that has been synchronised, which is a finite-state channel (FSC). Specifically, the synchronised NNC is a faded ISI channel, with fading according to `P_K`, and AWGN noise according to `sigma`. 
 
 ### Choosing the model parameters
-The channel mapping `f` and `A` are specified using a `.mat` file (e.g., `root/gbaa_sim/scrappie_graph.mat`). The duration distribution `P_K` and noise level `sigma` are specified in the `root/gbaa_sim/gbaa_nnc_fading.m` script.
+The parameters `f` and `A` are specified using a `.mat` file (e.g., `root/gbaa_sim/scrappie_graph.mat`). The duration distribution `P_K` and noise level `sigma` are specified in the `root/gbaa_sim/gbaa_nnc_fading.m` script.
 
 ### Choosing the simulation parameters
 The simulation parameters in the `root/gbaa_sim/gbaa_nnc_fading.m` script are:
