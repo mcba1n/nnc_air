@@ -1,5 +1,5 @@
 # nnc_air
-`nnc_air` is a software package that we release as supplementary material for the results in [[1]](#1). The package is capable of efficiently computing information rates of the noisy nanopore channel (NNC) [[1]](#1) for an arbitrary Markov source. The Markov source can be heuristically-optimised using the generalised Blahut-Arimoto algorithm (GBAA) [[2]](#2), [[3]](#3), which is included in this package.
+`nnc_air` is a software package that we release as supplementary material for the results in [[1]](#1). The package is capable of efficiently computing information rates of the noisy nanopore channel (NNC) [[1]](#1) for an arbitrary Markov source. The Markov source can be heuristically-optimised using the generalised Blahut-Arimoto algorithm (<a href="https://github.com/mcba1n/GBAA" target="_blank">GBAA</a>) [[2]](#2), [[3]](#3), which is included in this package.
 
 This package is able to reproduce the results in [[1]](#1), and additionally the results in [[2]](#2), [[3]](#3).
 
