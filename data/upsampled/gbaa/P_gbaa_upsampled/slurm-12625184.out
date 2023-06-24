@@ -1,0 +1,83 @@
+Compiler version: 8.2 (R2021a)
+Analyzing file dependencies. 
+Parsing file "/monfs01/projects/gv40/brendonm/gbaa/gbaa_nnc_fading.m"
+	(referenced from command line).
+Generating file "/monfs01/projects/gv40/brendonm/gbaa/readme.txt".
+Generating file "run_gbaa_nnc_fading_p2.sh".
+------------------------------------------
+Setting up environment variables
+---
+LD_LIBRARY_PATH is .:/usr/local/matlab/r2021a/runtime/glnxa64:/usr/local/matlab/r2021a/bin/glnxa64:/usr/local/matlab/r2021a/sys/os/glnxa64:/usr/local/matlab/r2021a/sys/opengl/lib/glnxa64
+Starting optimisation for sigma=0.30:
+F done.
+B done.
+1.9253
+Elapsed time is 2286.645839 seconds.
+F done.
+B done.
+1.9280
+Elapsed time is 2459.824245 seconds.
+F done.
+B done.
+1.9282
+Optimised rate: 1.9282
+Starting optimisation for sigma=0.35:
+F done.
+B done.
+1.8766
+Elapsed time is 2201.651745 seconds.
+F done.
+B done.
+1.8815
+Elapsed time is 2219.926352 seconds.
+F done.
+B done.
+1.8816
+Optimised rate: 1.8816
+Starting optimisation for sigma=0.40:
+F done.
+B done.
+1.8167
+Elapsed time is 2275.104289 seconds.
+F done.
+B done.
+1.8281
+Elapsed time is 2240.954551 seconds.
+F done.
+B done.
+1.8293
+Elapsed time is 2210.215302 seconds.
+F done.
+B done.
+1.8277
+Elapsed time is 2257.233378 seconds.
+F done.
+B done.
+1.8280
+Optimised rate: 1.8280
+Starting optimisation for sigma=0.45:
+F done.
+B done.
+1.7522
+Elapsed time is 2183.191779 seconds.
+F done.
+B done.
+1.7685
+Elapsed time is 2111.096292 seconds.
+F done.
+B done.
+1.7692
+Optimised rate: 1.7692
+Starting optimisation for sigma=0.50:
+F done.
+B done.
+1.6853
+Elapsed time is 2386.189265 seconds.
+F done.
+B done.
+1.7078
+Elapsed time is 2172.413829 seconds.
+F done.
+B done.
+1.7081
+Optimised rate: 1.7081
